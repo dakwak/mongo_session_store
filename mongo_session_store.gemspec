@@ -1,4 +1,5 @@
-require File.expand_path("../lib/mongo_session_store/version", __FILE__)
+$LOAD_PATH.push File.expand_path('lib', __dir__)
+require "mongo_session_store/version")
 
 Gem::Specification.new do |s|
   s.name = "mongo_session_store"
